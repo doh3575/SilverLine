@@ -1,0 +1,25 @@
+.gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.gradient-block {
+  margin-top: 6px;
+  width: 250px;
+  height: 20px;
+  background-image: linear-gradient(
+    to right,
+    #007f4f,
+    #32984f,
+    #71960a,
+    #a0b10f,
+    #cfdb1a,
+    #ffe818,
+    #ff9c10,
+    #ff6a0b,
+    #ff3506,
+    #ff0000
+  );
+}
